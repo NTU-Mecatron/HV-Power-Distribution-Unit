@@ -1,0 +1,122 @@
+09-18 23:26:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 220:Plugin executed on: 'win32'
+09-18 23:26:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 221:Plugin executed with python version: '3.11.5 (main, Jul 16 2024, 08:01:06) [MSC v.1939 64 bit (AMD64)]'
+09-18 23:26:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 222:KiCad build version: 8.0.4
+09-18 23:26:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 223:Plugin version: 1.0.12
+
+09-18 23:26:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 228:Screen sizes: [wx.Size(1920, 1200)]
+09-18 23:26:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 235:Dialog size: wx.Size(213, 81)
+09-18 23:26:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 237:Char size: 15
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 26:Starting to archive 3D models
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J208
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J206
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J202
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J203
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J205
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J204
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J207
+09-18 23:26:19 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J209
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J201
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: C:/Users/Admin/Downloads/LIB_XT30U-M/XT30U-M/3D/XT30U-M.stp
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C206
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C204
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: H102
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C207
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R101
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: H101
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C104
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C201
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C101
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C102
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R102
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J102
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C202
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R103
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: K101
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: C:/Users/Admin/Downloads/G8PM_1AW7R_DC12/G8PM_1AW7R.step
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: C:/Users/Admin/Downloads/G8PM_1AW7R_DC12/G8PM_1AW7R.step
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C103
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C205
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: H104
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C209
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J101
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/XT60PW-M--3DModel-STEP-269445.STEP
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/XT60PW-M--3DModel-STEP-269445.STEP
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: D104
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Clear.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Clear.wrl
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: D101
+09-18 23:26:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: G***
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: F101
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: C:/Users/Admin/Downloads/Fusibile Lama MINI Type 2.stp
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: C:/Users/Admin/Downloads/Fusibile Lama MINI Type 2.stp
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: C:/Users/Admin/Downloads/MCCQ-122.step
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: C:/Users/Admin/Downloads/MCCQ-122.step
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C105
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J106
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: H103
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: D103
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Clear.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Clear.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: D102
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Clear.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Clear.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C208
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C203
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+09-18 23:26:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: G***

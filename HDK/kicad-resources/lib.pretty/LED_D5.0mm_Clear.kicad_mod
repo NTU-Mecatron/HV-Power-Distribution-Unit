@@ -1,0 +1,224 @@
+(footprint "LED_D5.0mm_Clear"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
+	(tags "LED diameter 5.0mm 2 pins")
+	(property "Reference" "REF**"
+		(at 1.27 -3.96 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7c649076-169b-4461-94d8-4175d83c50f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED"
+		(at 1.27 3.96 180)
+		(layer "F.Fab")
+		(uuid "c21657cb-5a4b-4240-93b6-da7723b44452")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f5e45f9-e5ad-4d11-a4af-318aac93faff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc0602d3-5e66-4bcb-83b0-2bfdbb3f4fd1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Light emitting diode"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb3ba385-5946-4728-9865-ee720e8f93f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.29 -1.545)
+		(end -1.29 1.545)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "102afffd-e49e-4468-88aa-d7936c09da1d")
+	)
+	(fp_arc
+		(start -1.29 -1.54483)
+		(mid 2.072002 -2.880433)
+		(end 4.26 0.000462)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4a4624d-cfa6-4623-83ab-05d2f82adade")
+	)
+	(fp_arc
+		(start 4.26 -0.000462)
+		(mid 2.072002 2.880433)
+		(end -1.29 1.54483)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97df2b30-daa3-4374-aa45-14b7c40911c0")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 3.77 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2168083d-96db-4529-849b-0ec8c13e7188")
+	)
+	(fp_line
+		(start -1.95 -3.25)
+		(end -1.95 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b7ba068-e552-40a5-b0d9-6e13b195aeae")
+	)
+	(fp_line
+		(start -1.95 3.25)
+		(end 4.5 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a229befc-2738-499f-87a8-9794dbdf8325")
+	)
+	(fp_line
+		(start 4.5 -3.25)
+		(end -1.95 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4afca2ad-1dfd-4773-bc96-46c956a8876d")
+	)
+	(fp_line
+		(start 4.5 3.25)
+		(end 4.5 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d209dcdc-59e1-4f3b-8d19-e1b65f5893e9")
+	)
+	(fp_line
+		(start -1.23 -1.469694)
+		(end -1.23 1.469694)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8784e98-81ef-4a30-aad0-aca4921c2bd0")
+	)
+	(fp_arc
+		(start -1.23 -1.469694)
+		(mid 4.17 0.000016)
+		(end -1.230016 1.469666)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9636ffdd-a728-41a4-83c6-4e0f7fab35a4")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 3.77 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "69375b66-5245-47b6-ba42-6938047fb11a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.25 0 180)
+		(layer "F.Fab")
+		(uuid "c10cd398-1e1b-4141-93b4-2c205a4b8cdf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ac4e6ac-a1e9-4a6c-9f42-d3069e63cddb")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2137d7ce-b26f-4e8a-accf-a4cbeaaffacb")
+	)
+	(model "${KIPRJMOD}/kicad-resources/packages3D/LED_D5.0mm_Clear.wrl"
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
