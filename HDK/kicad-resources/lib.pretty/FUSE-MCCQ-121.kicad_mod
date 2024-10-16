@@ -1,0 +1,114 @@
+(footprint "FUSE-MCCQ-121"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "86b0bb7e-f91c-4520-b4df-dc367d35e4c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FUSE-MCCQ-121"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b34b4b8b-3a2a-4ae3-b884-8a80e251a7d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ce8760e-b5a7-4392-b800-2acb3482a9b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "061fe250-798e-4dcf-9dac-9c0ecca31d23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee1fa801-d5e2-4b4a-93da-b8285103204f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cb3f4ebc-b1bb-47b4-8057-263cc4e2ac92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -7.5)
+		(size 3.5 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ea57aae-ac00-426c-8d3d-fc2a5ceea3c3")
+	)
+	(pad "1" thru_hole circle
+		(at 5 -7.5)
+		(size 3.5 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "30dcdc75-6987-4024-8691-6cd9db4184c5")
+	)
+	(pad "2" thru_hole circle
+		(at 9 -7.5)
+		(size 3.5 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "48d14d18-a560-4bf3-b8db-de202f54463a")
+	)
+	(pad "2" thru_hole circle
+		(at 14 -7.5)
+		(size 3.5 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3b4778b3-fc38-48d4-9552-b3c2f636e1fa")
+	)
+)

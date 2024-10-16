@@ -443,7 +443,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "scottcjx-kicad-lib"
+      "scottcjx-kicad-lib",
+      "lib"
     ],
     "pinned_symbol_libs": [
       "scottcjx-kicad-lib"
