@@ -4,9 +4,10 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 3.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "86b0bb7e-f91c-4520-b4df-dc367d35e4c4")
 		(effects
 			(font
@@ -16,7 +17,7 @@
 		)
 	)
 	(property "Value" "FUSE-MCCQ-121"
-		(at 0 1 0)
+		(at 0 4.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b34b4b8b-3a2a-4ae3-b884-8a80e251a7d1")
@@ -28,7 +29,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0 3.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +42,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 3.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,7 +55,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 3.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -67,8 +68,19 @@
 		)
 	)
 	(attr through_hole)
+	(fp_rect
+		(start -10 -2.5)
+		(end 10 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "aa50e985-755a-484b-8c30-8cb4fc34080a")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 6.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cb3f4ebc-b1bb-47b4-8057-263cc4e2ac92")
@@ -79,36 +91,62 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
-		(at 0 -7.5)
-		(size 3.5 3.5)
-		(drill 2.5)
+	(pad "1" thru_hole oval
+		(at -7 0)
+		(size 3 4.5)
+		(drill oval 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "0ea57aae-ac00-426c-8d3d-fc2a5ceea3c3")
 	)
-	(pad "1" thru_hole circle
-		(at 5 -7.5)
-		(size 3.5 3.5)
-		(drill 2.5)
+	(pad "1" thru_hole oval
+		(at -2 0)
+		(size 3 4.5)
+		(drill oval 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "30dcdc75-6987-4024-8691-6cd9db4184c5")
 	)
-	(pad "2" thru_hole circle
-		(at 9 -7.5)
-		(size 3.5 3.5)
-		(drill 2.5)
+	(pad "2" thru_hole oval
+		(at 2 0)
+		(size 3 4.5)
+		(drill oval 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "48d14d18-a560-4bf3-b8db-de202f54463a")
 	)
-	(pad "2" thru_hole circle
-		(at 14 -7.5)
-		(size 3.5 3.5)
-		(drill 2.5)
+	(pad "2" thru_hole oval
+		(at 7 0)
+		(size 3 4.5)
+		(drill oval 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "3b4778b3-fc38-48d4-9552-b3c2f636e1fa")
+	)
+	(model "${KIPRJMOD}/kicad-resources/packages3D/Fuse holder BX503-35.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/kicad-resources/packages3D/MiniBlade.STEP"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

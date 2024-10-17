@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "Power Distribution Unit HV")
-		(date "18-09-2024")
+		(date "2024-10-17")
 		(rev "2")
 		(company "Scott CJX")
 		(comment 1 "License :CERN-OHL-S-2.0")
@@ -1402,6 +1402,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 67.31) (xy 104.14 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c47906-be81-4c03-ab64-dfb0dc4c06e8")
+	)
+	(wire
+		(pts
 			(xy 33.02 101.6) (xy 34.29 101.6)
 		)
 		(stroke
@@ -1622,6 +1632,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 80.01) (xy 76.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dee575d-01e2-4d0a-ab2f-1f6c7eb5f5ee")
+	)
+	(wire
+		(pts
 			(xy 74.93 44.45) (xy 76.2 44.45)
 		)
 		(stroke
@@ -1719,6 +1739,16 @@
 			(type default)
 		)
 		(uuid "5ce13635-4c6f-4fa3-9c7a-017aec986ae8")
+	)
+	(wire
+		(pts
+			(xy 76.2 82.55) (xy 74.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd4123e-13e7-4af9-9f07-1f4962b5ad53")
 	)
 	(wire
 		(pts
@@ -1892,6 +1922,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 73.66) (xy 76.2 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916b82fb-b7ad-4dcb-a997-7ced5027c267")
+	)
+	(wire
+		(pts
 			(xy 26.67 21.59) (xy 26.67 22.86)
 		)
 		(stroke
@@ -1932,6 +1972,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 76.2) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07d044b-2650-430a-b29a-b1e247c867de")
+	)
+	(wire
+		(pts
 			(xy 76.2 46.99) (xy 74.93 46.99)
 		)
 		(stroke
@@ -1949,6 +1999,16 @@
 			(type default)
 		)
 		(uuid "a1f1b6e0-872b-4fcc-a1c7-b15d7efe1fdf")
+	)
+	(wire
+		(pts
+			(xy 104.14 69.85) (xy 102.87 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a300027a-1941-4290-8168-4289905a70f4")
 	)
 	(wire
 		(pts
@@ -2583,7 +2643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "048777b9-3ddf-4ceb-93a9-d59d7530dfe8")
-		(property "Reference" "#PWR0233"
+		(property "Reference" "#PWR0237"
 			(at 33.02 111.76 0)
 			(effects
 				(font
@@ -2634,7 +2694,74 @@
 		(instances
 			(project "MecatronPDU-HV"
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
-					(reference "#PWR0233")
+					(reference "#PWR0237")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "075f1a6f-0524-4102-903d-cc2eaf02fec0")
+		(property "Reference" "#PWR0240"
+			(at 110.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33390f42-a977-42b0-8f43-b172f885d817")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0240")
 					(unit 1)
 				)
 			)
@@ -2768,6 +2895,73 @@
 			(project "MecatronPDU-HV"
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
 					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f0e21c3-101f-4822-9fa4-ea3640cce1b8")
+		(property "Reference" "#PWR0234"
+			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e681e5d-e805-45e2-8d92-4cda826f93c4")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
@@ -3013,7 +3207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "VCC_{OUT}1"
 			(at 50.8 73.66 90)
 			(effects
 				(font
@@ -3146,7 +3340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power Out"
+		(property "Value" "VCCF"
 			(at 95.25 52.07 0)
 			(effects
 				(font
@@ -3155,7 +3349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "lib:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 97.79 54.61 0)
 			(effects
 				(font
@@ -3233,7 +3427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power Out"
+		(property "Value" "VCCF"
 			(at 39.37 44.45 0)
 			(effects
 				(font
@@ -3242,7 +3436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "lib:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 41.91 46.99 0)
 			(effects
 				(font
@@ -3312,7 +3506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33819c80-cf0b-4842-9612-f32857460ea2")
-		(property "Reference" "J212"
+		(property "Reference" "J214"
 			(at 40.64 90.17 0)
 			(effects
 				(font
@@ -3320,7 +3514,7 @@
 				)
 			)
 		)
-		(property "Value" "12v Out"
+		(property "Value" "VCC_{OUT}1"
 			(at 40.64 92.71 0)
 			(effects
 				(font
@@ -3382,7 +3576,7 @@
 		(instances
 			(project ""
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
-					(reference "J212")
+					(reference "J214")
 					(unit 1)
 				)
 			)
@@ -3610,6 +3804,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 76.2 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5188fff6-535a-48e7-9589-66235db3542a")
+		(property "Reference" "#PWR0232"
+			(at 72.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_{OUT}2"
+			(at 78.74 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "728a01ff-b731-4fcd-8dd4-7ec65ee33974")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0232")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 48.26 59.69 270)
 		(unit 1)
@@ -3759,7 +4019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12v Out"
+		(property "Value" "VCC_{OUT}1"
 			(at 39.37 73.66 0)
 			(effects
 				(font
@@ -3768,7 +4028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "lib:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 41.91 76.2 0)
 			(effects
 				(font
@@ -3846,7 +4106,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power Out"
+		(property "Value" "VCCF"
 			(at 95.25 44.45 0)
 			(effects
 				(font
@@ -3855,7 +4115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "lib:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 97.79 46.99 0)
 			(effects
 				(font
@@ -3925,7 +4185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66b5dbc5-85b2-4fd6-9d2d-255c0b951b37")
-		(property "Reference" "J213"
+		(property "Reference" "J215"
 			(at 71.12 90.17 0)
 			(effects
 				(font
@@ -3933,7 +4193,7 @@
 				)
 			)
 		)
-		(property "Value" "5v Out"
+		(property "Value" "VCC_{OUT}2"
 			(at 71.12 92.71 0)
 			(effects
 				(font
@@ -3995,7 +4255,7 @@
 		(instances
 			(project "MecatronPDU-HV"
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
-					(reference "J213")
+					(reference "J215")
 					(unit 1)
 				)
 			)
@@ -4408,6 +4668,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 104.14 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73b22eed-f91c-4c76-bbcc-88f919634d24")
+		(property "Reference" "#PWR0239"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCF"
+			(at 106.68 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 104.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9775633-c077-448b-b715-1ce516e393e1")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0239")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 48.26 80.01 270)
 		(unit 1)
@@ -4416,7 +4742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "793625d3-688a-4f75-b46c-f6e1cd36e769")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR0231"
 			(at 44.45 80.01 0)
 			(effects
 				(font
@@ -4425,7 +4751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "VCC_{OUT}1"
 			(at 50.8 80.01 90)
 			(effects
 				(font
@@ -4467,7 +4793,7 @@
 		(instances
 			(project "MecatronPDU-HV"
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
-					(reference "#PWR0229")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -4535,6 +4861,73 @@
 			(project "MecatronPDU-HV"
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
 					(reference "#PWR0223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e2a41e7-3174-4b8c-b046-175983415801")
+		(property "Reference" "#PWR0230"
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2655301d-c3b9-41da-a15f-45eac27ae9b9")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -4704,7 +5097,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f7d94e9-6e31-44f9-88c6-8676c042065b")
-		(property "Reference" "J211"
+		(property "Reference" "J212"
 			(at 39.37 82.55 0)
 			(effects
 				(font
@@ -4713,7 +5106,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12v Out"
+		(property "Value" "VCC_{OUT}1"
 			(at 39.37 80.01 0)
 			(effects
 				(font
@@ -4722,7 +5115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "lib:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 41.91 82.55 0)
 			(effects
 				(font
@@ -4776,7 +5169,7 @@
 		(instances
 			(project "MecatronPDU-HV"
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
-					(reference "J211")
+					(reference "J212")
 					(unit 1)
 				)
 			)
@@ -4800,7 +5193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power Out"
+		(property "Value" "VCCF"
 			(at 95.25 59.69 0)
 			(effects
 				(font
@@ -4809,7 +5202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "lib:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 97.79 62.23 0)
 			(effects
 				(font
@@ -4871,6 +5264,93 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
+		(at 69.85 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94c81598-74ac-4168-928f-4ed5dcc8aa16")
+		(property "Reference" "J213"
+			(at 67.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VCC_{OUT}2"
+			(at 67.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "sourcing-part-num" ""
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "sourcing-remarks" ""
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "070ecc75-3469-424e-bc0b-027c1e8b588a")
+		)
+		(pin "1"
+			(uuid "f3f69186-ee1c-4985-855d-0e648dfcd3eb")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "J213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 41.91 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4887,7 +5367,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power Out"
+		(property "Value" "VCCF"
 			(at 39.37 52.07 0)
 			(effects
 				(font
@@ -4896,7 +5376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "lib:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 41.91 54.61 0)
 			(effects
 				(font
@@ -4974,7 +5454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC_{OUT}2"
 			(at 163.83 60.96 90)
 			(effects
 				(font
@@ -5083,6 +5563,72 @@
 			(project "MecatronPDU-HV"
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
 					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 76.2 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e5eb898-5742-4af1-9b4e-95a62acb487b")
+		(property "Reference" "#PWR0228"
+			(at 72.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_{OUT}2"
+			(at 78.74 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88a292e4-ec68-4324-8076-a7e824fc045f")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -5229,7 +5775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aeec67f6-0a65-408f-9be3-0e7f36509a0a")
-		(property "Reference" "#PWR0231"
+		(property "Reference" "#PWR0235"
 			(at 48.26 99.06 0)
 			(effects
 				(font
@@ -5238,7 +5784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "VCC_{OUT}1"
 			(at 48.26 91.44 0)
 			(effects
 				(font
@@ -5279,7 +5825,7 @@
 		(instances
 			(project ""
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
-					(reference "#PWR0231")
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -5303,7 +5849,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power Out"
+		(property "Value" "VCCF"
 			(at 67.31 44.45 0)
 			(effects
 				(font
@@ -5312,7 +5858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "lib:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 69.85 46.99 0)
 			(effects
 				(font
@@ -5448,7 +5994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8339a22-fc5e-4715-8509-5c9f35e8a656")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR0229"
 			(at 54.61 76.2 0)
 			(effects
 				(font
@@ -5499,7 +6045,7 @@
 		(instances
 			(project "MecatronPDU-HV"
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
-					(reference "#PWR0228")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -5523,7 +6069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power Out"
+		(property "Value" "VCCF"
 			(at 67.31 52.07 0)
 			(effects
 				(font
@@ -5532,7 +6078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "lib:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 69.85 54.61 0)
 			(effects
 				(font
@@ -5601,7 +6147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2955a88-bc69-492d-823e-9d25e71e0949")
-		(property "Reference" "#PWR0232"
+		(property "Reference" "#PWR0236"
 			(at 78.74 99.06 0)
 			(effects
 				(font
@@ -5610,7 +6156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC_{OUT}2"
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -5651,7 +6197,7 @@
 		(instances
 			(project ""
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
-					(reference "#PWR0232")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -5747,6 +6293,93 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
+		(at 69.85 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c33d5503-5e33-4789-985f-42c86df2ebc3")
+		(property "Reference" "J211"
+			(at 67.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VCC_{OUT}2"
+			(at 67.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+			(at 69.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "sourcing-part-num" ""
+			(at 69.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "sourcing-remarks" ""
+			(at 69.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b00da84-614e-46a2-ac1f-e380091ab692")
+		)
+		(pin "1"
+			(uuid "eb4e1385-21a0-4793-b406-8722701af1d1")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "J211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 41.91 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5763,7 +6396,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power Out"
+		(property "Value" "VCCF"
 			(at 39.37 59.69 0)
 			(effects
 				(font
@@ -5772,7 +6405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "lib:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 41.91 62.23 0)
 			(effects
 				(font
@@ -5938,7 +6571,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power Out"
+		(property "Value" "VCCF"
 			(at 67.31 59.69 0)
 			(effects
 				(font
@@ -5947,7 +6580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "lib:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 69.85 62.23 0)
 			(effects
 				(font
@@ -6304,7 +6937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9dfc9b5-e84f-414a-beb2-890f2f49593a")
-		(property "Reference" "#PWR0234"
+		(property "Reference" "#PWR0238"
 			(at 63.5 111.76 0)
 			(effects
 				(font
@@ -6355,7 +6988,7 @@
 		(instances
 			(project "MecatronPDU-HV"
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
-					(reference "#PWR0234")
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -6513,7 +7146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "VCC_{OUT}1"
 			(at 163.83 44.45 90)
 			(effects
 				(font
@@ -6659,7 +7292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f89a06a2-b780-4289-9066-00d6e52ddaf8")
-		(property "Reference" "#PWR0230"
+		(property "Reference" "#PWR0233"
 			(at 54.61 82.55 0)
 			(effects
 				(font
@@ -6710,7 +7343,94 @@
 		(instances
 			(project "MecatronPDU-HV"
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
-					(reference "#PWR0230")
+					(reference "#PWR0233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 97.79 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd8d10a4-38ef-403b-9198-c5bcb5f51a95")
+		(property "Reference" "J216"
+			(at 95.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VCCF"
+			(at 95.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 97.79 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "sourcing-part-num" ""
+			(at 97.79 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "sourcing-remarks" ""
+			(at 97.79 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8133bae-d7a9-4f07-8c10-0ce7a5db2533")
+		)
+		(pin "1"
+			(uuid "f225ff91-8a25-4be7-b55e-7aa5bfd249dc")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "J216")
 					(unit 1)
 				)
 			)
