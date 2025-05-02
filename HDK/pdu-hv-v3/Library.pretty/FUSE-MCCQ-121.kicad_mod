@@ -1,0 +1,197 @@
+(footprint "FUSE-MCCQ-121"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.143 -3.543 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b5771275-a073-4c8e-89b5-96bb6c7ca1f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse"
+		(at 0.016 3.696 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3db16750-ddb8-40e8-ba25-0f34c8cd94f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "scottcjx-kicad-lib:FUSE-MCCQ-121"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "457ce1fd-81d5-4575-bf16-721383900614")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5247d45-47ef-4692-a22d-8c09d912dc7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fuse"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15ea2659-677c-41ed-8a58-fe032f0cdee4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "sourcing-part-num" "MCCQ-122"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85c5f20b-4de7-45b7-9d2a-ebef1d550273")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "sourcing-remarks" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1bd7e20-bc5e-411f-8a7c-f5d9f830ba87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9.5 -3)
+		(end 9.5 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a360b36f-f403-4293-9ad4-f0cd0260a94c")
+	)
+	(fp_rect
+		(start -9.5 -3)
+		(end 9.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8e7ea422-e4d4-4886-918e-f5eb2efbfa73")
+	)
+	(fp_line
+		(start -9.5 -3)
+		(end 9.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "0c35b162-2a81-480c-a407-1690d8d321f3")
+	)
+	(fp_line
+		(start 9.5 -3)
+		(end -9.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "2f017803-bc79-4846-b326-ef24000b9c1a")
+	)
+	(pad "1" thru_hole roundrect
+		(at -7 0)
+		(size 3.5 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "dfc04b26-9d6f-4faa-aa6b-5ca98217ce41")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2 0)
+		(size 3 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "9b05b2ad-86f2-4727-b643-709d1edf1694")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2 0)
+		(size 3 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "b5ee7df2-b17f-4471-af8e-7ce91d17ac50")
+	)
+	(pad "2" thru_hole roundrect
+		(at 7 0)
+		(size 3.5 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "8ea35be5-a55b-4300-a14f-38d830353e79")
+	)
+	(model "C:/Users/Admin/Desktop/scotts scott scott/scottcjx-kicad-lib/3dmodels/Fuses/Fuse holder BX503-35.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "C:/Users/Admin/Desktop/scotts scott scott/scottcjx-kicad-lib/3dmodels/Fuses/BLADE FUSE AUTO 5A 32VDC ATO-ATC.stp"
+		(offset
+			(xyz -16 -11 18)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
+)

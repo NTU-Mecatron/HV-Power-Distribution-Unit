@@ -1,0 +1,327 @@
+(footprint "G8PM1AW7RDC12"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "G8PM-1AW7R DC12-3")
+	(tags "Relay or Contactor")
+	(property "Reference" "REF**"
+		(at -0.000501 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6adafae6-c666-413b-9542-da4e8ef662ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Relay_SPST-NO"
+		(at -0.000501 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1b3fc368-86d3-49b9-9a17-6b23f2f3fe83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "scottcjx-kicad-lib:G8PM1AW7RDC12"
+		(at -5.2125 -3.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e6a8f88-8a4a-427d-82b6-2fd49d6a0e65")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -5.2125 -3.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ba7d4f0-dc15-48e7-a088-277ca3002798")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Relay SPST, normally open, EN50005"
+		(at -5.2125 -3.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "809d210b-aebd-4a23-93d7-142a01f83d5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "sourcing-part-num" "G8PM-1AW7RDC12"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "245649e3-1583-4a32-a9dc-c7f0713c7ce3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "sourcing-remarks" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "927f8337-9061-4f59-83a3-b80d540af4a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.9125 -3.5)
+		(end -7.9125 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1781bba-a6fc-42d6-a8ca-6b115dbcbe9c")
+	)
+	(fp_line
+		(start -7.8125 -3.5)
+		(end -7.8125 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "657ac57d-c67d-4ab7-a75d-7d07a87633f9")
+	)
+	(fp_line
+		(start -7.3625 -6.2)
+		(end -1.3625 -6.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11a02f49-1de6-4083-a01b-de0d9327bc0d")
+	)
+	(fp_line
+		(start -7.3625 6.2)
+		(end -7.3625 -6.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8262a9b2-068d-4cfe-b178-61c92ab47d95")
+	)
+	(fp_line
+		(start -1.3625 6.2)
+		(end -7.3625 6.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0721f4ad-f1a2-46e5-bfb2-1d82da8af941")
+	)
+	(fp_line
+		(start 7.0375 -2.54)
+		(end 7.0375 2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8b4db8e-5a17-4c4d-873b-f5756b86021a")
+	)
+	(fp_arc
+		(start -7.9125 -3.5)
+		(mid -7.8625 -3.55)
+		(end -7.8125 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45608228-3a42-4fab-a769-aba0ffd93bc4")
+	)
+	(fp_arc
+		(start -7.8125 -3.5)
+		(mid -7.8625 -3.45)
+		(end -7.9125 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33253d49-af79-4b1a-901e-863317d504eb")
+	)
+	(fp_line
+		(start -8.3625 -7.375)
+		(end -8.3625 7.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8255fc20-2896-426a-9dd1-db8e22721843")
+	)
+	(fp_line
+		(start -8.3625 7.375)
+		(end 8.3625 7.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1487e7b3-2d61-4cb4-bf09-0ddc4ebc887e")
+	)
+	(fp_line
+		(start 8.3625 -7.375)
+		(end -8.3625 -7.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bacff2e2-ee2b-42be-a808-1f2e8b6610e2")
+	)
+	(fp_line
+		(start 8.3625 7.375)
+		(end 8.3625 -7.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1c75519-13a4-4305-bcc6-386cf2562391")
+	)
+	(fp_line
+		(start -7.3625 -6.2)
+		(end -7.3625 6.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e759fc37-08db-4a7e-806c-56dd4120f3ae")
+	)
+	(fp_line
+		(start -7.3625 6.2)
+		(end 7.0375 6.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe39a9e7-01cd-4fbb-8871-e09924724310")
+	)
+	(fp_line
+		(start 7.0375 -6.2)
+		(end -7.3625 -6.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1be76936-ae0c-4ce2-98c2-591e619dbbcd")
+	)
+	(fp_line
+		(start 7.0375 6.2)
+		(end 7.0375 -6.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78579512-48da-449d-8c4c-60936a75e32c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.000501 0 0)
+		(layer "F.Fab")
+		(uuid "2dfee050-4666-47fb-ba17-4ebede4c15bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "13" thru_hole circle
+		(at 5.7875 -4.8)
+		(size 3.15 3.15)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cb18f330-df8c-4ce7-bfdf-58c29bba9b87")
+	)
+	(pad "13" thru_hole circle
+		(at 5.7875 4.8)
+		(size 3.15 3.15)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f275f30-83cf-45c5-989c-62e17cd4a5cc")
+	)
+	(pad "14" thru_hole rect
+		(at -5.2125 -3.5)
+		(size 3.15 3.15)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2e77086-ab57-4922-abbd-8e35ed816f78")
+	)
+	(pad "14" thru_hole circle
+		(at -5.2125 3.5)
+		(size 3.15 3.15)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "056da0ea-da37-4877-9ac6-d7974f8b24be")
+	)
+	(pad "A1" thru_hole circle
+		(at 0.7875 5)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7339e2f3-cf20-4acf-95b7-602afaea3133")
+	)
+	(pad "A2" thru_hole circle
+		(at 0.7875 -5)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c22400f-1c26-4ecc-954d-417bf4e77d86")
+	)
+	(model "C:/Users/Admin/Desktop/scotts scott scott/scottcjx-kicad-lib/3dmodels/Relay/G8PM-1AW7R_DC12.stp"
+		(offset
+			(xyz -0.2125 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
